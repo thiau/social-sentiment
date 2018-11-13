@@ -1,2 +1,2 @@
 # social-sentiment
-Twitter Watson NLU for Social Network Analysis
+Twitter for Watson NLU for Social Network Analysis
