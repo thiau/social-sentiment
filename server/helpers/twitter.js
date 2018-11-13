@@ -5,13 +5,7 @@
 		return {
 			"getTweets": function (query) {
 				return new Promise((resolve, reject) => {
-					twitter.get("search/tweets", { "q": query, "lang": "en" }, function (error, tweets, response) {
-						if (error) {
-							reject(error);
-						} else {
-							resolve(tweets);
-						}
-					});
+					// Call get method from Twitter API
 				});
 			}
 		}

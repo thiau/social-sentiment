@@ -5,20 +5,9 @@
 		return {
 			"analyze": function (text) {
 				return new Promise((resolve, reject) => {
-					var parameters = {
-						"text": text,
-						"features": {
-							"sentiment": {}
-						}
-					}
+					// Create parameters object
 
-					nlu.analyze(parameters, function (err, response) {
-						if (err) {
-							reject(err);
-						} else {
-							resolve(response);
-						}
-					});
+					// Call the Analyze method from NLU
 				})
 			}
 		}

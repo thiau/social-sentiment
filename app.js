@@ -10,11 +10,9 @@
 	const app = express();
 	const port = process.env.PORT || 3001;
 	
-	const twitter = require("./server/configs/twitter")();
-	const nlu = require("./server/configs/nlu")();
+	// Import object configs
 
-	const twitterHelper = require("./server/helpers/twitter")(twitter);
-	const nluHelper = require("./server/helpers/nlu")(nlu);
+	// Create the objects
 
 	require("./server/routes/index")(app, twitterHelper, nluHelper);
 
