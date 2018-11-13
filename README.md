@@ -1,6 +1,6 @@
 # Social Sentiment
 
-Social Sentiment is a simple application to read social network data using [Twitter API](https://developer.twitter.com/) and analyze the sentiment using [Watson Natural Language Understanding](https://console.bluemix.net/apidocs/natural-language-understanding)
+Social Sentiment is a simple learning application to read social network data using [Twitter API](https://developer.twitter.com/) and analyze the sentiment using [Watson Natural Language Understanding](https://console.bluemix.net/apidocs/natural-language-understanding)
 
 ## How to create the required services
 1. [Twitter API](https://developer.twitter.com/en/apps/create)
