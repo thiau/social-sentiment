@@ -3,7 +3,7 @@
 
 	module.exports = function (app, twitterHelper, nluHelper) {
 		app.get("/analyze", function (req, res) {
-			twitterHelper.getTweets("IBM").then(function (tweets) {
+			twitterHelper.getTweets(req.query.text).then(function (tweets) {
 				let allTweets = tweets.statuses.map(tweet => tweet.text).join();
 	
 				nluHelper.analyze(allTweets).then(function (response) {
