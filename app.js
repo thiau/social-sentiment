@@ -14,7 +14,7 @@
 
 	// Create the objects
 
-	require("./server/routes/index")(app, twitterHelper, nluHelper);
+	require("./server/routes/index")();
 
 	app.listen(port, function () {
 		process.stdout.write(["Server running on port:", port].join(" "));
