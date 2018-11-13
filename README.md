@@ -9,6 +9,8 @@ Social Sentiment is a simple learning application to read social network data us
 
 ## How to run the app
 1. [Download](https://nodejs.org/en/download/) and install Node.js
-2. Create `.env` file in the root folder
-3. Run `npm install` 
-4. Run `node app.js` to start the app
+2. Create the required services
+3. Create `.env` file in the root folder
+4. Create the required code
+5. Run `npm install` 
+6. Run `node app.js` to start the app
